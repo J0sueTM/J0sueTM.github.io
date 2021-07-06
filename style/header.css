@@ -1,0 +1,63 @@
+@import url("index.css");
+
+header
+{
+  width: 100%;
+  height: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+header #menu, #contact
+{
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+header #menu
+{
+  justify-content: left;
+
+  max-width: 28%;
+}
+
+header #contact
+{
+  justify-content: center;
+
+  max-width: 12%;
+}
+
+header .button
+{
+  height: 100%;
+  margin-left: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  text-decoration: none;
+  color: var(--color-background-dark);
+}
+
+header #contact #last-button
+{
+  margin-right: 0.5rem;
+}
+
+header p
+{
+  color: var(--color-text-primary-dark);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+}

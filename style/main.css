@@ -1,0 +1,39 @@
+@import url("./index.css");
+
+main
+{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main img
+{
+  margin-left: calc(50% - 6rem);
+  margin-top: calc(50vh - 15.5rem);
+  margin-bottom: 1rem;
+  width: 12rem;
+
+  border: 6px solid var(--color-auxiliar-green);
+  border-radius: 50%;
+}
+
+main h2
+{
+  margin-bottom: 1rem;
+
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+main h3
+{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-auxiliar-blue);
+}

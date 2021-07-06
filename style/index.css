@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root
+{
+  --color-background: #fbf1c7;
+  --color-background-dark: #32302F;
+  
+  --color-text-primary: #ebdbb2;
+  --color-text-primary-dark: #3c3836;
+
+  --color-auxiliar-orange: #fe8019;
+  --color-auxiliar-blue: #458588;
+  --color-auxiliar-green: #8ec07c;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: var(--color-background);
+}
